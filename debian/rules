@@ -25,7 +25,8 @@ installjar:
 	# copy data files
 	find . -type f -not \( \
 		-path '*/debian/*' -or \
-		-path '*/bin/*' \
+		-path '*/bin/*' -or \
+		-path '*/.git/*' \
 	        \) -exec install -D --mode=0664 {} ${DESTDIR}/{} \;
 
 # Build architecture-independent files here.
