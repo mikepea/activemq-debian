@@ -1,0 +1,1 @@
+2009-12-09 11:10:29,879 | INFO  | Using Persistence Adapter: org.apache.activemq.store.kahadb.KahaDBPersistenceAdapter@15428dd | org.apache.activemq.broker.BrokerService | main
